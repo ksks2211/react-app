@@ -1,10 +1,6 @@
-import React from 'react';
+import React from 'react'
+import SignInContainer from '../containers/SignInContainer'
 
-
-export default function Signin(){
-  return (
-    <div>
-      <h1>Signin</h1>
-    </div>
-  )
+export default function SignIn() {
+  return <SignInContainer />
 }
